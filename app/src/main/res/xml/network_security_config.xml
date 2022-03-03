@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">https://api.themoviedb.org/3/discover</domain>
+        <pin-set>
+            <pin digest="SHA-256">paJOw+DTCx1KaSMeALtM5gXuxJN4lP04qMKhSXBFa9Y=</pin>
+            <pin digest="SHA-256">qPerI4uMwY1VrtRE5aBY8jIQJopLUuBt2+GDUWMwZn4=</pin>
+            <pin digest="SHA-256">iie1VXtL7HzAMF+/PVPR9xzT80kQxdZeJ+zduCB3uj0=</pin>
+        </pin-set>
+    </domain-config>
+</network-security-config>
